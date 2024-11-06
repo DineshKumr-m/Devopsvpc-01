@@ -17,3 +17,9 @@ output "private_subnet_id" {
 output "internet_gateway_id" {
   value = aws_internet_gateway.gw.id
 }
+
+output "publicroutetable" {
+  value = aws_route_table.pubrt.id
+}
+
+
